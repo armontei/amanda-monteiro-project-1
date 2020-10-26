@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Animal Refuge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/34b6f92998.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>    
+        <div class="wrapper" id="home">
+            <!-- desktop top navigation -->
+            <nav class="clearfix desktop-only">
+                <ul class="navigation">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- mobile top navigation -->
+            <nav class="mobile-only">
+                <label class="sr-only">Menu</label>
+                <label for="toggle"><i class="fa fa-bars"></i></label>
+                <input type="checkbox" id="toggle" name="toggle"/>
+
+                <ul class="mobile-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <h1>Animal Refuge</h1>       
+
+            <!-- font awesome social media icons -->
+            <ul class="socials desktop-only">
+                <li>
+                    <span class="sr-only">Instagram</span>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <span class="sr-only">Facebook</span>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <span class="sr-only">Snapchat</span>
+                    <a href=""><i class="fab fa-snapchat-ghost"></i></a>
+                </li>
+                <li>
+                    <span class="sr-only">Twitter</span>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- Suzie section -->
+        <section class="dark-background" id="about">
+            <div class="wrapper suzie-wrapper clearfix">
+                <figure class="suzie">
+                    <img src="./animal-land-assets/image-6.jpg" alt="Tabby cat laying on red fabric">
+                </figure>
+                <div class="suzie">
+                    <h2>Suzie's Story</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum adipisci fuga ea accusantium quidem esse expedita, unde rerum earum harum rem debitis illum iusto enim reprehenderit dignissimos suscipit repellendus! Soluta perspiciatis vero tenetur, maxime provident voluptatem voluptas id alias officia.</p>
+                    <a href="" class="suzie-button">Read more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Friends section -->
+        <section class="light-background image-container">
+            <div class="wrapper">
+                <h3>Some of our friends</h3>
+                <ul class="clearfix">
+                    <li><img src="./animal-land-assets/image-5.jpg" alt="Chameleon on a branch"></li>
+                    <li><img src="./animal-land-assets/image-4.jpg" alt="Sheep facing camera in a field"></li>
+                    <li><img src="./animal-land-assets/image-3.jpg" alt="Parrot on a branch"></li>
+                </ul>                                              
+            </div>
+        </section>
+
+        <!-- Links section -->
+        <section class="dark-background">    
+            <ul class="links-container wrapper clearfix">
+                <li class="links">
+                    <a href="#"><i class="fas fa-paw"></i>
+                    <h4>Animal spotlight</h4></a>
+                </li>
+                <li class="links">
+                    <a href="#"><i class="fas fa-calendar-check"></i>
+                    <h4>Events</h4></a>
+                </li>
+                <li class="links">
+                    <a href="#"><i class="fas fa-shopping-bag"></i>
+                    <h4>Merch</h4></a>
+                </li>
+                </ul>
+        </section>
+
+        <!-- Grid section -->           
+        <div class="four-grid clearfix" id="blog">
+
+            <figure class="grid-box mobile-only">
+                <img src="./animal-land-assets/image-7.jpg" alt="Two zebras in a field">
+            </figure>
+            <div class="grid-box grid-wrapper">
+                <h5>Fascinating facts about zebras</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis illo et repudiandae exercitationem minus in error suscipit assumenda ut fugiat facilis, distinctio nisi dignissimos numquam magni, modi excepturi molestiae voluptates ullam doloribus autem quasi asperiores eos. Modi, mollitia eius?</p>
+                <a href="" class="grid-button">Read more</a>
+            </div>
+            <figure class="grid-box desktop-only">
+                <img src="./animal-land-assets/image-7.jpg" alt="Two zebras in a field">
+            </figure>
+
+            <figure class="grid-box">
+                <img src="./animal-land-assets/image-2.jpg" alt="Cat high fiving human hand">
+            </figure>
+            <div class="grid-box grid-wrapper">
+                <h5>The bond between animals and humans</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis illo et repudiandae exercitationem minus in
+                error suscipit assumenda ut fugiat facilis, distinctio nisi dignissimos numquam magni, modi excepturi molestiae
+                voluptates ullam doloribus autem quasi asperiores eos. Modi, mollitia eius?</p>
+                <a href="" class="grid-button">Read more</a>
+            </div> <!--grid-wrapper-->
+        </div> <!--four-gird-->
+
+        <!-- FOOTER -->
+        <footer class="dark-background">
+            <div class="footer-wrapper">
+                <nav class="footer-nav footer-row">
+                    <ul>
+                        <li class="nav-row"><a href="#home">Home</a></li>
+                        <li class="nav-row"><a href="#about">About</a></li>
+                        <li class="nav-row"><a href="#blog">Blog</a></li>
+                        <li class="nav-row"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="newsletter footer-row">
+                    <form action="" method="get">
+                        <h6>Stay updated</h6>
+                        <p>Subscribe to our newsletter to stay updated.</p>
+                        <label for="email" class="sr-only">Enter email address</label>
+                        <input type="email" class="email" placeholder="email address">
+                        <input type="submit" class="footer-button" value="Subscribe">
+                    </form>
+                </div>
+
+                <div class="contact footer-row" id="#contact">
+                    <h6>Contact</h6>
+                    <p>info@email.com | 123-456-7890</p>
+                    <p>123 some road, Toronto, ON</p>
+                    <p>A5A 5A5, Canada</p>
+                </div>
+            </div> <!-- wrapper div -->
+
+            <div class="black-background">
+                <p>Created at <a href="https://junocollege.com/">Juno College</a></p>
+            </div>            
+        </footer>
+    </main>
+</body>
+</html>
